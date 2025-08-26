@@ -1,5 +1,8 @@
+#Pedimos la contraseña
 contraseña = input("Ingrese una contraseña: ")
+#Sacamos los digitos
 longi = len(contraseña)
+#Verificamos e imprimimos resultados
 if longi >= 8 and longi <= 14:
     print("Ha ingresado una contraseña correcta")
 else:

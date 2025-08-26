@@ -1,4 +1,6 @@
+#Pedimos la magnitud del terremoto
 terremoto = int(input("Ingrese la magnitud del terremoto: "))
+#Verificamos e imprimimos resultados
 if terremoto < 3:
     print("Muy leve")
 elif terremoto >= 3 and terremoto < 4:

@@ -1,6 +1,10 @@
+#Pedimos el hemisferio
 hemisferio = input("Ingrese el hemisferioen el que se encuentra(N/S): ")
+#Pedimos el mes
 mes = input("Ingrese en que mes del año: ")
+#Pedimos el dia
 dia = int(input("Ingrese dia(en número): "))
+#Verificamos e imprimimos resultados
 if mes.capitalize() == "Diciembre" and dia >= 21 or mes.capitalize() == "Marzo" and dia <= 20:
     if hemisferio.capitalize() == "Norte":
         print("Invierno")

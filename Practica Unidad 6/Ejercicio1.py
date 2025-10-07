@@ -1,5 +1,5 @@
 # Definimos la funcion
 def imprimir_hola_mundo():
-    print("Hola Mundo!")
+   return ("Hola Mundo!")
 # Llamamos a la funcion
-imprimir_hola_mundo()
+print(imprimir_hola_mundo())

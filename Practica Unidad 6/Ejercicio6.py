@@ -1,9 +1,12 @@
-# Defino la funcion
+# Defino la función
 def tabla_multiplicar(numero):
-    print(f"Tabla de multiplicar del: {numero}")
+    resultado = f"Tabla de multiplicar del {numero}:\n"
     for i in range(1, 11):
-        print(f"{numero} x {i} = {numero * i}")
-# Solicito el numero
+        resultado += f"{numero} x {i} = {numero * i}\n"
+    return resultado
+
+# Solicito el número
 numero = int(input("Ingrese el numero que desea ver la tabla: "))
-# Llamo a la funcion
-tabla_multiplicar(numero)
+
+# Llamo a la función y muestro el resultado
+print(tabla_multiplicar(numero))

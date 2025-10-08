@@ -18,6 +18,6 @@ precio_frutas["Melón"] = 2800
 print(f"Ejercicio 2: {precio_frutas}")
 
 #--- Ejercicio 3 ---
-lista_sin_precios = precio_frutas.keys()
+lista_sin_precios = [precio_frutas.keys()]
 # Comprobamos
-print(f"Ejercicio 3: {precio_frutas}")
+print(f"Ejercicio 3: {lista_sin_precios}")

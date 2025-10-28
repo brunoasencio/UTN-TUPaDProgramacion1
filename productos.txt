@@ -1,0 +1,3 @@
+Lapicera,$35,25
+Computadora,$350,10
+Buzo,$200,30

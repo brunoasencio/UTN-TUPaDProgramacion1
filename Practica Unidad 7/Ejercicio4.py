@@ -1,6 +1,6 @@
 contactos = {}     # Diccionario para almacenar
 # Bucle para consultar los contactos y el numero
-for i in range(1,2):
+for i in range(5):
         nombre = input("Ingrese el nombre del contacto que desea agregar: ")
         num = int(input(f"Ingrese el numero de {nombre}: "))
         if nombre in contactos:
